@@ -3,6 +3,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
 }
 /* fine regole reset */
 
@@ -25,7 +26,6 @@ body {
   height: 300px;
   position: relative;
   border: 10px solid white;
-
 }
 
 .text {
@@ -38,9 +38,10 @@ body {
 }
 
 .text h1 {
-  font-size: 70px;
+  font-size: 50px;
   margin-bottom: 30px;
   border: 5px solid white;
+  letter-spacing: 8px;
 }
 /** fine regole banner **/
 
@@ -54,6 +55,7 @@ body {
   margin: auto;
   width: 57%;
 }
+
 .sezioni ul li {
   display: inline;
   padding: 10px;
@@ -71,6 +73,7 @@ li.change-navbar:hover {
 main {
   margin: 10px 0;
 }
+
 main::after {
   content:"";
   display: table;
@@ -149,8 +152,10 @@ main .right .downer .title-block  {
 /* *fine regole col right **/
 /* fine regole main */
 
+p , a{
+  font-size: 12px;
+}
 /* regole footer */
-
 footer {
   background: white;
   height: 150px;
