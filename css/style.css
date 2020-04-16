@@ -101,35 +101,35 @@ main .left .list a {
   text-decoration: none;
 }
 main .center {
-  background: purple;
+  background: white;
   width: 50%;
-  height: 500px;
+  padding: 10px;
+  border-radius: 5px;
   margin: 0 1%;
 }
 
+main .center .title-block h2 {
+
+  margin-bottom: 16px;
+}
 main .right {
-  background: white;
-  width: 24%;
+ width: 24%;
 
 }
 /* fine regole main */
 
 /* regole col right */
 
-main .right .upper {
-  height: 200px;
-  background: pink;
-  margin-bottom: 10px;
-
-
-
-}
-
+main .right .upper,
 main .right .downer {
-  height: 400px;
-  background: pink;
-
-
+  background: white;
+  margin-bottom: 10px;
+  padding: 10px;
+  border-radius: 5px;
+  margin: 0 1%;
+}
+main .right .upper {
+  margin-bottom: 10px;
 }
 
 /* fine regole col right */
