@@ -1,5 +1,4 @@
 /* regole reset */
-
 * {
   margin: 0;
   padding: 0;
@@ -11,14 +10,16 @@ body {
   background-image: url(../img/sfondo.png);
 }
 
-/* regole header */
-
+/* regole container */
 .container{
   width: 1024px;
   margin: auto;
   margin-top: 10px;
 }
+/* fine regole container */
 
+/* regole header */
+/** regole banner **/
 .banner {
   background-image: url(../img/background-header.jpg);
   height: 300px;
@@ -34,15 +35,16 @@ body {
   top: 50%;
   left:50%;
   transform: translate(-50%, -50%);
-
 }
+
 .text h1 {
   font-size: 70px;
   margin-bottom: 30px;
   border: 5px solid white;
-
 }
+/** fine regole banner **/
 
+/** regole menu **/
 .menu {
   height: 50px;
   background-color: #666666;
@@ -59,10 +61,13 @@ body {
   color: white;
   font-size: 12px;
 }
+li.change-navbar:hover {
+  background-color: #8291a4;
+}
+/** fine regole menu **/
 /* fine regole header */
 
 /* regole main */
-
 main {
   margin: 10px 0;
 }
@@ -76,16 +81,19 @@ main .col {
   float: left;
 }
 
+/** regole col left **/
 main .left {
   background: white;
   width: 24%;
   padding: 10px;
   border-radius: 5px;
 }
+
 main .left .title-block i {
   float:left;
   color: orange;
 }
+
 main .left .title-block h3 {
   padding: 0 20px;
   margin-bottom: 16px;
@@ -95,11 +103,14 @@ main .left .list ul li {
   list-style: none;
   padding: 10px 0px;
   color: green;
-
 }
+
 main .left .list a {
   text-decoration: none;
 }
+/** fine regole col left **/
+
+/** regole col center **/
 main .center {
   background: white;
   width: 50%;
@@ -109,16 +120,14 @@ main .center {
 }
 
 main .center .title-block h2 {
-
   margin-bottom: 16px;
 }
+/** fine regole col center **/
+
+/** regole col right **/
 main .right {
  width: 24%;
-
 }
-/* fine regole main */
-
-/* regole col right */
 
 main .right .upper,
 main .right .downer {
@@ -128,18 +137,41 @@ main .right .downer {
   border-radius: 5px;
   margin: 0 1%;
 }
+
 main .right .upper {
   margin-bottom: 10px;
 }
 
-/* fine regole col right */
-
+main .right .upper .title-block,
+main .right .downer .title-block  {
+  margin-bottom: 16px;
+}
+/* *fine regole col right **/
+/* fine regole main */
 
 /* regole footer */
 
 footer {
-  background: cyan;
+  background: white;
   height: 150px;
+  border-radius: 5px;
 }
 
+footer .intestation , .loghi-social {
+  margin:auto;
+  text-align: center;
+}
+
+footer .intestation h4 {
+  color: #a0a0a0;
+  font-style: italic;
+  margin-bottom: 2px;
+  text-align: center;
+}
+footer .loghi-social i {
+  padding: 44px;
+  margin-top: 12px;
+  font-size: 35px;
+  color: #a0a0a0;
+}
 /* fine regole footer */
